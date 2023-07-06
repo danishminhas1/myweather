@@ -1,0 +1,61 @@
+.title {
+  color: #212121;
+  font-size: 23px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.daily-item {
+  background-color: rgba(19, 128, 230, 0.2);
+  border-radius: 15px;
+  height: 40px;
+  margin: 20px 80px;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  padding: 5px 20px;
+}
+
+.daily-item .day {
+  cursor: inherit;
+  color: #212121;
+  flex: 1 1;
+  font-weight: 600;
+  margin-left: 15px;
+}
+
+.description {
+  cursor: inherit;
+  flex: 1 1;
+  margin-right: 15px;
+  text-align: right;
+  margin-right: 100px;
+}
+
+.min-max {
+  color: #212121;
+}
+
+.daily-details-grid {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+  /* margin: 1rem auto; */
+  padding: 1rem;
+  border-radius: 12px;
+  opacity: 90;
+} 
+
+.daily-details-grid-item {
+  
+} 
+
+.daily-details-grid-item label {
+  color: #212121;
+  font-weight: bold;
+}

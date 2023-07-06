@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+.container {
+  max-width: 1080px;
+  margin: 20px auto;
+}
+
+
+.title {
+  font-family: 'Great Vibes', sans-serif; /* Replace 'FontName' with the desired font */
+  font-size: 48px; /* Adjust the font size as needed */
+  color: #ebe7e7; /* Adjust the color as needed */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle text shadow */
+  /* Add any additional styles to make the title fancy */
+}
